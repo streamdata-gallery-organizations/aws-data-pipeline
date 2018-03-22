@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetPipelineDefinition&k=1:
+  /?Action=GetPipelineDefinition:
     get:
       summary: ' Get Pipeline Definition '
       description: Gets the definition of the specified pipeline
