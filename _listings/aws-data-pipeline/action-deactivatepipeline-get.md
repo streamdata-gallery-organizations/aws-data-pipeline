@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeactivatePipeline&k=1:
+  /?Action=DeactivatePipeline:
     get:
       summary: ' Deactivate Pipeline '
       description: Deactivates the specified running pipeline
