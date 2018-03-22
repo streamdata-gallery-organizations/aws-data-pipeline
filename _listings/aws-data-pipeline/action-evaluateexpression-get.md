@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EvaluateExpression&k=1:
+  /?Action=EvaluateExpression:
     get:
       summary: ' Evaluate Expression '
       description: Task runners call EvaluateExpression to evaluate a string in the
