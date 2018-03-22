@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PollForTask&k=1:
+  /?Action=PollForTask:
     get:
       summary: ' Poll For Task '
       description: Task runners call PollForTask to receive a task to perform from
