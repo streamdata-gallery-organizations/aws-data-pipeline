@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeObjects&k=1:
+  /?Action=DescribeObjects:
     get:
       summary: ' Describe Objects '
       description: Gets the object definitions for a set of objects associated with
