@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetTaskStatus&k=1:
+  /?Action=SetTaskStatus:
     get:
       summary: ' Set Task Status '
       description: Task runners call SetTaskStatus to notify AWS Data Pipeline that
