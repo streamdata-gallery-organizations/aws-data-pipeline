@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ValidatePipelineDefinition&k=1:
+  /?Action=ValidatePipelineDefinition:
     get:
       summary: ' Validate Pipeline Definition '
       description: Validates the specified pipeline definition to ensure that it is
