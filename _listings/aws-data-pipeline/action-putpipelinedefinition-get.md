@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutPipelineDefinition&k=1:
+  /?Action=PutPipelineDefinition:
     get:
       summary: ' Put Pipeline Definition '
       description: Adds tasks, schedules, and preconditions to the specified pipeline
