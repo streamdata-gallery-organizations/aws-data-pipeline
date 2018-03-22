@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribePipelines&k=1:
+  /?Action=DescribePipelines:
     get:
       summary: ' Describe Pipelines '
       description: Retrieves metadata about one or more pipelines
