@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ReportTaskProgress&k=1:
+  /?Action=ReportTaskProgress:
     get:
       summary: ' Report Task Progress '
       description: Task runners call ReportTaskProgress when assigned a task to acknowledge
