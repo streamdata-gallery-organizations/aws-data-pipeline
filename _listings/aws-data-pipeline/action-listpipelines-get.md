@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListPipelines&k=1:
+  /?Action=ListPipelines:
     get:
       summary: ' List Pipelines '
       description: Lists the pipeline identifiers for all active pipelines that you
