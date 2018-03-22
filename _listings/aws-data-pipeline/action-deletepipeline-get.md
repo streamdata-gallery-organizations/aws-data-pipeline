@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeletePipeline&k=1:
+  /?Action=DeletePipeline:
     get:
       summary: ' Delete Pipeline '
       description: Deletes a pipeline, its pipeline definition, and its run history
