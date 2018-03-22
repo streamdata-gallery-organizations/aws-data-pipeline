@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=QueryObjects&k=1:
+  /?Action=QueryObjects:
     get:
       summary: ' Query Objects '
       description: Queries the specified pipeline for the names of objects that match
