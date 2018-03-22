@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ReportTaskRunnerHeartbeat&k=1:
+  /?Action=ReportTaskRunnerHeartbeat:
     get:
       summary: ' Report Task Runner Heartbeat '
       description: Task runners call ReportTaskRunnerHeartbeat every 15 minutes to
