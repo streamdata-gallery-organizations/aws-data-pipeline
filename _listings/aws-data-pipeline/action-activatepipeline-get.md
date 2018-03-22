@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ActivatePipeline&k=1:
+  /?Action=ActivatePipeline:
     get:
       summary: ' Activate Pipeline '
       description: Validates the specified pipeline and starts processing pipeline
