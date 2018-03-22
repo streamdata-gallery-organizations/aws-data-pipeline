@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SetStatus&k=1:
+  /?Action=SetStatus:
     get:
       summary: ' Set Status '
       description: Requests that the status of the specified physical or logical pipeline
