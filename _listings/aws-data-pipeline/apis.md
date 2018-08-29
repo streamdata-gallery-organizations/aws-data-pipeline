@@ -16,254 +16,257 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: AWS Data Pipeline
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Data Pipeline API Activate Pipeline
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Activate Pipeline
+  x-api-slug: actionactivatepipeline-get
   description: Validates the specified pipeline and starts processing pipeline tasks.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=ActivatePipeline
-  tags: Pipeline
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionactivatepipeline-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionactivatepipeline-get-openapi.md
-- name: AWS Data Pipeline API Add Tags
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Add Tags
+  x-api-slug: actionaddtags-get
   description: Adds or modifies tags for the specified pipeline.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=AddTags
-  tags: Tags
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionaddtags-get-openapi.md
-- name: AWS Data Pipeline API Create Pipeline
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Create Pipeline
+  x-api-slug: actioncreatepipeline-get
   description: Creates a new, empty pipeline.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=CreatePipeline
-  tags: Pipeline
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actioncreatepipeline-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actioncreatepipeline-get-openapi.md
-- name: AWS Data Pipeline API Deactivate Pipeline
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Deactivate Pipeline
+  x-api-slug: actiondeactivatepipeline-get
   description: Deactivates the specified running pipeline.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=DeactivatePipeline
-  tags: Pipeline
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actiondeactivatepipeline-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actiondeactivatepipeline-get-openapi.md
-- name: AWS Data Pipeline API Delete Pipeline
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Delete Pipeline
+  x-api-slug: actiondeletepipeline-get
   description: Deletes a pipeline, its pipeline definition, and its run history.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=DeletePipeline
-  tags: Pipeline
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actiondeletepipeline-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actiondeletepipeline-get-openapi.md
-- name: AWS Data Pipeline API Describe Objects
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Describe Objects
+  x-api-slug: actiondescribeobjects-get
   description: Gets the object definitions for a set of objects associated with the
     pipeline.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=DescribeObjects
-  tags: Objects
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actiondescribeobjects-get-openapi.md
-- name: AWS Data Pipeline API Describe Pipelines
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Describe Pipelines
+  x-api-slug: actiondescribepipelines-get
   description: Retrieves metadata about one or more pipelines.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=DescribePipelines
-  tags: Pipeline
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actiondescribepipelines-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actiondescribepipelines-get-openapi.md
-- name: AWS Data Pipeline API Evaluate Expression
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Evaluate Expression
+  x-api-slug: actionevaluateexpression-get
   description: Task runners call EvaluateExpression to evaluate a string in the context
     of the specified object.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=EvaluateExpression
-  tags: Expressions
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionevaluateexpression-get-openapi.md
-- name: AWS Data Pipeline API Get Pipeline Definition
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Get Pipeline Definition
+  x-api-slug: actiongetpipelinedefinition-get
   description: Gets the definition of the specified pipeline.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=GetPipelineDefinition
-  tags: Pipeline
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actiongetpipelinedefinition-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actiongetpipelinedefinition-get-openapi.md
-- name: AWS Data Pipeline API List Pipelines
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - List Pipelines
+  x-api-slug: actionlistpipelines-get
   description: Lists the pipeline identifiers for all active pipelines that you have
     permission to access.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=ListPipelines
-  tags: Pipeline
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionlistpipelines-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionlistpipelines-get-openapi.md
-- name: AWS Data Pipeline API Poll For Task
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Poll For Task
+  x-api-slug: actionpollfortask-get
   description: Task runners call PollForTask to receive a task to perform from AWS
     Data Pipeline.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=PollForTask
-  tags: Tasks
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionpollfortask-get-openapi.md
-- name: AWS Data Pipeline API Put Pipeline Definition
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Put Pipeline Definition
+  x-api-slug: actionputpipelinedefinition-get
   description: Adds tasks, schedules, and preconditions to the specified pipeline.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=PutPipelineDefinition
-  tags: Pipeline
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionputpipelinedefinition-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionputpipelinedefinition-get-openapi.md
-- name: AWS Data Pipeline API Query Objects
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Query Objects
+  x-api-slug: actionqueryobjects-get
   description: Queries the specified pipeline for the names of objects that match
     the specified set of conditions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=QueryObjects
-  tags: Objects
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionqueryobjects-get-openapi.md
-- name: AWS Data Pipeline API Remove Tags
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Remove Tags
+  x-api-slug: actionremovetags-get
   description: Removes existing tags from the specified pipeline.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=RemoveTags
-  tags: Tags
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionremovetags-get-openapi.md
-- name: AWS Data Pipeline API Report Task Progress
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Report Task Progress
+  x-api-slug: actionreporttaskprogress-get
   description: Task runners call ReportTaskProgress when assigned a task to acknowledge
     that it has the task.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=ReportTaskProgress
-  tags: Tasks
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionreporttaskprogress-get-openapi.md
-- name: AWS Data Pipeline API Report Task Runner Heartbeat
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Report Task Runner Heartbeat
+  x-api-slug: actionreporttaskrunnerheartbeat-get
   description: Task runners call ReportTaskRunnerHeartbeat every 15 minutes to indicate
     that they are operational.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=ReportTaskRunnerHeartbeat
-  tags: Task Runner Hearbeat
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionreporttaskrunnerheartbeat-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionreporttaskrunnerheartbeat-get-openapi.md
-- name: AWS Data Pipeline API Set Status
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Set Status
+  x-api-slug: actionsetstatus-get
   description: Requests that the status of the specified physical or logical pipeline
     objects be updated in the specified pipeline.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=SetStatus
-  tags: Status
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionsetstatus-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionsetstatus-get-openapi.md
-- name: AWS Data Pipeline API Set Task Status
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Set Task Status
+  x-api-slug: actionsettaskstatus-get
   description: Task runners call SetTaskStatus to notify AWS Data Pipeline that a
     task is completed and provide information about the final status.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=SetTaskStatus
-  tags: Tasks
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionsettaskstatus-get-openapi.md
-- name: AWS Data Pipeline API Validate Pipeline Definition
-  x-api-slug: aws-data-pipeline-api
+- name: AWS Data Pipeline API - Validate Pipeline Definition
+  x-api-slug: actionvalidatepipelinedefinition-get
   description: Validates the specified pipeline definition to ensure that it is well
     formed and can be run without error.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
   humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: ://///?Action=ValidatePipelineDefinition
-  tags: Pipeline
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, Data, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionvalidatepipelinedefinition-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/actionvalidatepipelinedefinition-get-openapi.md
-- name: AWS Data Pipeline API
-  x-api-slug: aws-data-pipeline-api
-  description: AWS Data Pipeline is a web service that helps you reliably process
-    and move data between different AWS compute and storage services, as well as on-premise
-    data sources, at specified intervals. With AWS Data Pipeline, you can regularly
-    access your data where it&rsquo;s stored, transform and process it at scale, and
-    efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS,
-    Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex
-    data processing workloads that are fault tolerant, repeatable, and highly available.
-    You don&rsquo;t have to worry about ensuring resource availability, managing inter-task
-    dependencies, retrying transient failures or timeouts in individual tasks, or
-    creating a failure notification system. AWS Data Pipeline also allows you to move
-    and process data that was previously locked up in on-premise data silos.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png
-  humanURL: https://aws.amazon.com/datapipeline/
-  baseURL: :///
-  tags: AWS Data Pipeline
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-data-pipeline/master/_listings/aws-data-pipeline/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://aws.config.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://aws.data.pipeline.stack.network
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
 - type: x-change-log
